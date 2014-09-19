@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Buenard-Bold.ttf.ttx, Buenard-Regular.ttf.ttx, src/Buenard-Regular.otf.ttx,
+  src/Buenard-Bold.otf.ttx, src/Buenard-Bold-TTF.sfd, src/Buenard-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
